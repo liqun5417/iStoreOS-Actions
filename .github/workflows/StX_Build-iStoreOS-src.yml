@@ -6,10 +6,10 @@ on:
       openwrt_board:
         description: "请选择设备型号"
         required: true
-        default: "dg3399_tn3399_s905d"
+        default: "dg3399_tn3399_s905d_tn3399-v3"
         type: choice
         options:
-          - dg3399_tn3399_s905d
+          - dg3399_tn3399_s905d_tn3399-v3
           - a311d
           - a311d-oes
           - alark35-3500
@@ -170,6 +170,7 @@ on:
           - zcube1-max
           - zk-r39a
           - zysj
+          - tn3399-v3
       openwrt_kernel:
         description: "请选择内核版本"
         required: true
